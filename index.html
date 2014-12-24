@@ -33,11 +33,15 @@
 					<h1>BitLogic</h1>
 					<h2 class="subtitle">This will be the site, blog and portfolio, of a tech startup from Belgrade, Serbia. It's currently under development, and will be ready in:</h2>
 					<div id="countdown"></div>
-					<form class="form-inline signup" role="form">
-					  <div class="form-group">
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-					  </div>
-					  <button type="submit" class="btn btn-theme">Get notified!</button>
+					<h2 class="subtitle form-title">Questions? Please contact us: </h2>
+					<form class="form-inline signup" role="form" id="contact">
+					  <p>
+					    <input type="email" class="form-control" id="email" id="exampleInputEmail1" placeholder="Enter your email address">
+					  </p>
+					  <p>
+					  	<textarea id="text" placeholder='Enter text'></textarea>
+					  </p>
+					  <button type="submit" class="btn btn-theme">Contact us!</button>
 					</form>		
 					
 				</div>
@@ -52,11 +56,7 @@
 	</div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.countdown.min.js"></script>
-	<script type="text/javascript">
-  $('#countdown').countdown('2015/02/02', function(event) {
-    $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
-  });
-</script>
+		<script src="assets/js/jquery.countdown.min.js"></script>
+		<script src="assets/js/script.js"></script>
   </body>
 </html>
