@@ -193,3 +193,12 @@ p.copyright {
   font-weight: 400;
   font-size: 26px !important;
 }
+
+#success{
+  color: #fff;
+  display: none;
+}
+
+.form-wrap{
+  height: 200px;
+}

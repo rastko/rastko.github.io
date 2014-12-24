@@ -30,7 +30,11 @@ $(document).ready(function(){
 
   $('#contact').submit(function(e){
   	e.preventDefault();
-  	sendMail()
+  	sendMail();
+  	$(this).fadeOut(function(){
+  		$('#success').fadeIn();
+  	});
+
   })
 
 })

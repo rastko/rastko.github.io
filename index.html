@@ -34,16 +34,18 @@
 					<h2 class="subtitle">This will be the site, blog and portfolio, of a tech startup from Belgrade, Serbia. It's currently under development, and will be ready in:</h2>
 					<div id="countdown"></div>
 					<h2 class="subtitle form-title">Questions? Please contact us: </h2>
-					<form class="form-inline signup" role="form" id="contact">
-					  <p>
-					    <input type="email" class="form-control" id="email" id="exampleInputEmail1" placeholder="Enter your email address">
-					  </p>
-					  <p>
-					  	<textarea id="text" placeholder='Enter text'></textarea>
-					  </p>
-					  <button type="submit" class="btn btn-theme">Contact us!</button>
-					</form>		
-					
+					<div class="form-wrap">
+						<form class="form-inline signup" role="form" id="contact">
+						  <p>
+						    <input type="email" class="form-control" id="email" id="exampleInputEmail1" placeholder="Enter your email address">
+						  </p>
+						  <p>
+						  	<textarea id="text" placeholder='Enter text' required></textarea>
+						  </p>
+						  <button type="submit" class="btn btn-theme">Contact us!</button>
+						</form>		
+						<div id="success">You email has been sent, we will reply as soon as possible!<div>
+					</div>
 				</div>
 				
 			</div>
